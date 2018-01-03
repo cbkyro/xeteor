@@ -91,7 +91,11 @@
     text-align: left;
 
     @include breakpoint("medium") {
-        margin-left: remCalc(40px);
+        // margin-left: remCalc(40px);
+        margin: 0 0 0 remCalc(40px);
+        float: left;
+        width: 100%;
+        max-width: 250px;
     }
 
     .header-logo-image {

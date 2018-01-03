@@ -165,7 +165,8 @@
 // -----------------------------------------------------------------------------
 
 .productView-price {
-    font-size: fontSize("smaller");
+    // font-size: fontSize("smaller");
+    font-size: fontSize("larger");
     margin-bottom: spacing("third");
 
     @include breakpoint("medium") {
@@ -219,6 +220,7 @@
 
     @include breakpoint("small") {
         margin-top: 0;
+        float: left;
     }
 
     > :first-child {

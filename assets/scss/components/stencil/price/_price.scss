@@ -5,8 +5,11 @@
 .price--rrp,
 .price--discounted {
     text-decoration: line-through;
+    font-size: 20px;
+    color: #767676;
 }
 
 .price-section--minor {
     color: color("greys", "light");
 }
+.price--withoutTax { color: #B12704; }
