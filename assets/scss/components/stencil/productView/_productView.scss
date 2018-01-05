@@ -110,7 +110,8 @@
 // -----------------------------------------------------------------------------
 
 .productView-details {
-    margin-bottom: spacing("single") + spacing("third");
+    // margin-bottom: spacing("single") + spacing("third");
+    margin-bottom: spacing("single");
 }
 
 
@@ -120,7 +121,9 @@
 .productView-product {
     @include breakpoint("medium") {
         border-bottom: container("border");
-        padding-bottom: spacing("single") + spacing("third");
+        // padding-bottom: spacing("single") + spacing("third");
+        padding-bottom: spacing("single");
+
     }
 
     > :last-child {
@@ -148,7 +151,8 @@
 
     @include breakpoint("large") {
         font-size: fontSize("small");
-        margin: -(spacing("eighth")) 0 spacing("base");
+        // margin: -(spacing("eighth")) 0 spacing("base");
+        margin: -(spacing("eighth")) 0 0;
     }
 
     a {
@@ -219,7 +223,7 @@
     margin-top: spacing("half");
 
     @include breakpoint("small") {
-        margin-top: 0;
+        margin-top: -2rem;
         float: left;
     }
 
@@ -246,7 +250,8 @@
 
 .productView-info-name {
     clear: both;
-    margin-bottom: spacing("eighth");
+    // margin-bottom: spacing("eighth");
+    margin-bottom: -0.25rem;
     margin-right: spacing("quarter");
 
     @include breakpoint("small") {
@@ -299,7 +304,8 @@
 
     .form-field {
         font-size: 0; // 2
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
         // scss-lint:disable SelectorDepth, NestingDepth
         > .form-checkbox + .form-label,
@@ -335,7 +341,7 @@
 
         @include breakpoint("large") {
             display: inline-block;
-            margin-top: 1rem;
+            // margin-top: 1rem;
         }
 
         // scss-lint:disable SelectorDepth, NestingDepth
